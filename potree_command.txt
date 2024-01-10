@@ -1,0 +1,1 @@
+PotreeConverter.exe E:\OneDrive_HNEE\03_project\03_Mollergrab-potree\data\pc_Mollergrab_thin.laz -o E:\OneDrive_HNEE\03_project\03_Mollergrab-potree\output -generate-page index
