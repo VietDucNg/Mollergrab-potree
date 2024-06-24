@@ -58,7 +58,7 @@
 		
 		
 
-		Potree.loadPointCloud("./pointclouds/index/metadata.json", "index", e => {
+		Potree.loadPointCloud("./pointclouds/mollergrab/metadata.json", "mollergrab", e => {
 			let scene = viewer.scene;
 			let pointcloud = e.pointcloud;
 			
@@ -66,7 +66,7 @@
 			material.size = 0.7;
 			material.pointSizeType = Potree.PointSizeType.ADAPTIVE;
 			material.shape = Potree.PointShape.CIRCLE;
-			material.activeAttributeName = "elevation";
+			material.activeAttributeName = "point source id";
 			
 			scene.addPointCloud(pointcloud);
 			
